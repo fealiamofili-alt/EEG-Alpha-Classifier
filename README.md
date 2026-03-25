@@ -6,7 +6,7 @@
 
 ## Neurophysiological Context: The Alpha Blockade
 
-This project focuses on the automated detection of the "Alpha Blockade" phenomenon (the Berger Effect). When a subject’s eyes are closed, the visual cortex within the Occipital Lobe generates synchronized, high-amplitude oscillations at approximately 10Hz, known as the Alpha rhythm. This model identifies that distinct neural signature to differentiate between cognitive states with high precision.
+This project focuses on the automated detection of the **Alpha Blockade** phenomenon (the Berger Effect). When a subject’s eyes are closed, the visual cortex within the Occipital Lobe generates synchronized, high-amplitude oscillations at approximately 10Hz, known as the Alpha rhythm. This model identifies that distinct neural signature to differentiate between cognitive states with high precision.
 
 ## Analysis and Evidence
 
@@ -26,6 +26,7 @@ To validate the model's physiological accuracy, the classifier's coefficients we
 * **Classifier:** `Scikit-Learn` (StandardScaler + Logistic Regression)
 * **Dataset:** 64-channel high-density EEG recording
 
-### Execution Instructions
-1. Install necessary dependencies: `pip install -r requirements.txt`
-2. Execute the analysis within the `EEG-Alpha-Classifier.ipynb` notebook via Anaconda or Jupyter.
+## Execution Instructions
+
+1.  **Install dependencies:** `pip install -r requirements.txt`
+2.  **Run Analysis:** Execute the `EEG-Alpha-Classifier.ipynb` notebook via Anaconda or Jupyter.
